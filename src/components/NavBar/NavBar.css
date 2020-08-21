@@ -1,0 +1,57 @@
+.Navbar {
+    background-color: #000000;
+    /* position: relative; */
+    /* margin-top: 100px; */
+    margin-top: 40px;
+    height: 50px;
+    z-index: 1;
+    
+  }
+
+.NavBar-link, .NavBar-link:hover {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+.image-div {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 72px;
+  top: 1px;
+  filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.05));
+  z-index: 2;
+
+}
+
+.text-container {
+  float: right;
+  text-align: right;
+  /* margin-bottom: 50px; */
+  /* height: 200px; */
+  /* padding-top: 100px */
+}
+
+.quote-section {
+  display: flex;
+  flex-flow: column;
+  margin-top: 60px;
+}
+
+.text {
+  margin-left: 25px;
+  font-size: 18px; 
+  float: bottom;
+  /* margin-right: 25px; */
+}
+
+button {
+  margin-right: 25px;
+  background-color: #B10006;
+  color: white;
+  /* width: 150px; */
+  /* height: 150px; */
+  border: #B10006;
+  border-radius: 25px;
+}
