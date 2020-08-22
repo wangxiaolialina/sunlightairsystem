@@ -2,38 +2,37 @@ import React, { Component } from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
-import SliderPage from 'react-slider-page';
+// import SliderPage from 'react-slider-page';
+import OurService from './components/OurService/OurService'
 
 class App extends Component {
 
   render() {
     return (
       <div className="App">
-        <SliderPage>
         <Switch>
           <Route exact path='/' render={() =>
             <NavBar />
           } />
         </Switch>
-          <section id="HOME">
+          <div className="grey" id="HOME">
             <div>Home</div>
-          </section>
-          <section id="what-we-do">
+          </div>
+          <div id="what-we-do">
             <div>WHAT WE DO</div>
-          </section>
-          <section id="why-choose-sunlight">
+          </div>
+          <div className="grey" id="why-choose-sunlight">
             <div>WHY CHOOSE SUNLIGHT</div>
-          </section>
-          <section id="our-service">
-            <div>OUR SERVICE</div>
-          </section>
-          <section id="customer-say">
+          </div>
+          <div id="our-service">
+            <div> <OurService /> </div>
+          </div>
+          <div className="grey" id="customer-say">
             <div>WHAT OUR CUSTOMER SAY</div>
-          </section>
-          <section id="help">
+          </div>
+          <div id="help">
             <div>HOW CAN WE HELP YOU</div>
-          </section>
-        </SliderPage>
+          </div>
       </div>
     );
   }

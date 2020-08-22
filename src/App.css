@@ -7,9 +7,36 @@
   pointer-events: none;
 }
 
-section {
-  background-color: gray;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display:flex;
+  height: 40px;
+  width: 40px;
+  background-color:rgba(0, 0, 0, 0.5);
+  background-size: 100%, 100%;
+  background-image: none; 
+  justify-content: center;
+  align-items: center;
 }
+
+.carousel-control-prev-icon:after
+{
+  font-family: "Material Icons";
+  content: "chevron_left";
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+}
+
+.carousel-control-next-icon:after
+{ 
+  font-family: "Material Icons";
+  content: "chevron_right";
+  font-weight: 300;
+  font-size: 40px;
+  color: white;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
