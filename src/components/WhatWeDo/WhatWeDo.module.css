@@ -1,0 +1,133 @@
+/* .container{
+     background-color: rgb(177, 176, 176);
+} */
+
+
+h3 {
+    margin-top: 10px;
+    display:inline-block;
+    font-weight: bold;
+    /* text-decoration-line: underline; */
+    border-bottom:5px solid #B10006;
+    padding-bottom:1px;
+}
+
+h6{
+    padding: 5px;
+    font-family: 'Lato';
+    /* font-size: 16px; */
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.graphics {
+    display: flex;
+    flex-flow: row;
+    margin: 25px;
+    /* padding: 25px; */
+    text-align: center;
+    justify-content: center;
+}
+
+.heating{
+    margin: 25px;
+    filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.5));
+    background: url("./kisspng-fire-flame-computer-icons-combustibility-and-flamm-campfire-5abbdd730703e1.2626166915222613630287.png");
+    background-color: white;
+    /* display: inline-block; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    border: 0.1px solid white;
+    border-radius: 7px;
+    width: 17vw;
+    color: white;
+}
+
+.heating h5{
+    margin-left: -1px;
+    margin-right: -10px;
+    margin-top: -2px;
+    background-color: #B10006;
+    border: 2px solid #B10006;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.heating ul li {
+    background-color: black;
+    text-align: left;
+    text-indent: 25px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 16px;
+    margin-right: -1px;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+}
+
+.cooling{
+    margin: 25px;
+    filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.5));
+    background: url("./NicePng_vans-logo-png_9621723.png");
+    background-color: white;
+    /* display: inline-block; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 17vw;
+    color: white;
+}
+.cooling ul li {
+    background-color: black;
+    text-align: left;
+    text-indent: 25px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 16px;
+    margin-right: -1px;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+}
+.cooling h5{
+    margin-left: -1px;
+    margin-right: -10px;
+    margin-top: -2px;
+    background-color: #B10006;
+    border: 2px solid #B10006;
+    border-radius: 0px 10px 10px 0px;
+}
+.airquality{
+    margin: 25px;
+    filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.5));
+    background: url("./wind-svgrepo-com.png");
+    background-color: white;
+    /* display:  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 17vw;
+    color: white;
+}
+.airquality h5{
+    background-color: #B10006;
+    border: 2px solid #B10006;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.airquality ul li {
+    background-color: black;
+    text-align: left;
+    text-indent: 25px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 16px;
+    margin-right: -1px;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
