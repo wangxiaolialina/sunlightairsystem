@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* overflow: scroll; */
 }
 
 .App-logo {
@@ -38,6 +39,14 @@
 }
 
 
+img{
+  max-width: 100%;
+}
+
+body{
+  min-height: 100vh;
+  /* overflow: scroll; */
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

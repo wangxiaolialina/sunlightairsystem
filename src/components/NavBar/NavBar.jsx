@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './NavBar.css';
+import style from './NavBar.module.css';
 import Navbar from 'react-bootstrap/Navbar'
 import logo from './sunlight.png'
 const NavBar = (props) => {
   let nav =
     <>
-      <div className='image-div'>
+      <div className={style.imagediv}>
         <img
           src={logo}
           width="300"
@@ -15,17 +15,17 @@ const NavBar = (props) => {
           alt="React Bootstrap logo"
         />
       </div>
-      <div className='quote-section'>
-        <div className='text-container'>
-          <span className='text'>
+      <div className={style.quotesection}>
+        <div className={style.textcontainer}>
+          <span className={style.text}>
             Call (416) 123 - 4567
           </span>
           &nbsp;&nbsp;&nbsp;
-          <span className='text'>
+          <span className={style.text}>
             Serving the GTA
           </span>
           &nbsp;&nbsp;&nbsp;
-          <span className='text'>
+          <span className={style.text}>
             Monday - Saturday: 8AM - 10PM
           </span>
           &nbsp;&nbsp;&nbsp;
@@ -33,24 +33,24 @@ const NavBar = (props) => {
             REQUEST A QUOTE
         </button>
         </div>
-        <Navbar className='Navbar justify-content-end'>
-          <Link to='' className='NavBar-link'>HEATING</Link>
+        <Navbar className={style.Navbar}>
+          <Link to='' className={style.NavBarlink}>HEATING</Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <Link to='' className='NavBar-link'>COOLING</Link>
+        <Link to='' className={style.NavBarlink}>COOLING</Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <Link to='' className='NavBar-link'>AIR QUALITY</Link>
+        <Link to='' className={style.NavBarlink}>AIR QUALITY</Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <Link to='' className='NavBar-link'>RESIDENTIAL</Link>
+        <Link to='' className={style.NavBarlink}>RESIDENTIAL</Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <Link to='' className='NavBar-link'>COMMERCIAL</Link>
+        <Link to='' className={style.NavBarlink}>COMMERCIAL</Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <Link to='' className='NavBar-link'>ABOUT</Link>
+        <Link to='' className={style.NavBarlink}>ABOUT</Link>
         </Navbar>
       </div>
     </>;
 
   return (
-    <div className='NavBar'>
+    <div className={style.NavBar}>
       {nav}
     </div>
   );
