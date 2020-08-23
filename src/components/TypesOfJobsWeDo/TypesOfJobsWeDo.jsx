@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './OurService.module.css'
+import styles from './TypesOfJobsWeDo.module.css'
 import Carousel from 'react-bootstrap/Carousel';
 import residentialPic from './residentialpic.png'
 import commercialPic from './commercialpic.png';
