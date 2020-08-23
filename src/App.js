@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home';
 import WWD from './components/WhatWeDo/WhatWeDo';
+import WCSL from './components/WhyChooseSL/WhyChooseSL';
 // import SliderPage from 'react-slider-page';
 import OurService from './components/OurService/OurService'
 import SliderPage from 'react-slider-page';
@@ -39,7 +40,7 @@ class App extends Component {
           <div><WWD /></div>
         </div>
         <div className="grey" id="why-choose-sunlight">
-          <div>WHY CHOOSE SUNLIGHT</div>
+          <div><WCSL /></div>
         </div>
         <div id="our-service">
           <div> <OurService /> </div>
