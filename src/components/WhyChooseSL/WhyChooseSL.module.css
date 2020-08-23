@@ -1,0 +1,83 @@
+.container{
+    background-color: #F2F2F2;
+    height: 650px;
+}
+
+.gridbox h5{
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+.gridbox {
+    /* margin: 50px; */
+    display: grid;
+    /* width: 50vw; */
+    /* text-align: center; */
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+        "team prices emoti"
+        "certi holi services";
+    grid-gap: 50px;
+}
+
+.team{
+    grid-area: team;
+    /* background-color: wheat; */
+    height: 150px;
+    margin-left: 20px;
+    /* width: 300px; */
+
+}
+
+.prices{
+    grid-area: prices;
+    /* background-color: pink; */
+    height: 150px;
+
+}
+
+.emoti{
+    grid-area: emoti;
+    /* background-color: cyan; */
+    height: 150px;
+    margin-right: 20px;
+}
+
+.certi{
+    grid-area: certi;
+    /* background-color: blue; */
+    height: 150px;
+    margin-left: 20px;
+    
+}
+
+.holi{
+    grid-area: holi;
+    /* background-color: purple; */
+    height: 150px;
+
+}
+
+.services{
+    grid-area: services;
+    /* background-color: red; */
+    height: 150px;
+    margin-right: 20px;
+}
+
+.whyheader {
+    display: flex;
+    flex-flow: row;
+}
+
+.whyheader h5{
+    margin-left: 10px;
+}
+
+.gridtext {
+    text-align: left;
+    margin-left: 70px;
+    margin-top: -30px;
+}
