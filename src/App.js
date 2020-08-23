@@ -6,8 +6,8 @@ import Home from './components/Home/Home';
 import WWD from './components/WhatWeDo/WhatWeDo';
 import WCSL from './components/WhyChooseSL/WhyChooseSL';
 // import SliderPage from 'react-slider-page';
-import OurService from './components/OurService/OurService'
-import SliderPage from 'react-slider-page';
+import TypesOfJobsWeDo from './components/TypesOfJobsWeDo/TypesOfJobsWeDo';
+import BrandWeWorkWith from './components/BrandsWeWorkWith/BrandsWeWorkWith';
 
 class App extends Component {
   constructor() {
@@ -42,8 +42,11 @@ class App extends Component {
         <div className="grey" id="why-choose-sunlight">
           <div><WCSL /></div>
         </div>
-        <div id="our-service">
-          <div> <OurService /> </div>
+        <div id="types-of-jobs-we-do">
+          <div> <TypesOfJobsWeDo /> </div>
+        </div>
+        <div id="brands-we-work-with">
+          <div> <BrandWeWorkWith /> </div>
         </div>
         <div className="grey" id="customer-say">
           <div>WHAT OUR CUSTOMER SAY</div>

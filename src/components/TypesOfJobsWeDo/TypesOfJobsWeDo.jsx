@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './OurService.module.css'
+import styles from './TypesOfJobsWeDo.module.css'
 import Carousel from 'react-bootstrap/Carousel';
 import residentialPic from './residentialpic.png'
 import commercialPic from './commercialpic.png';
@@ -13,15 +13,15 @@ function ControlledCarousel() {
 
   return (
     <div className={styles.ourService}>
-      <div className={styles.title}>OUR SERVICES</div>
+      <div className={styles.title}><h3>TYPES OF JOBS WE DO</h3></div>
       <div className={styles.slides}>
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
               <div className={styles.residential} >
                 <div className={styles.content}>
                   <div className={styles.text}>
-                  <h3>Residential Services</h3>
-                  <p>From regular maintenance to renovation projects. Sunlight Air System is the GTA's leading provider for your home's HVAC solutions.</p>
+                  <h4>Residential Services</h4>
+                  <h6>From regular maintenance to renovation projects. Sunlight Air System is the GTA's leading provider for your home's HVAC solutions.</h6>
                   </div>
                   <button className={styles.button}>
                     Contact Us
