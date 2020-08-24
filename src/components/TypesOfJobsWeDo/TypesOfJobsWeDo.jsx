@@ -39,8 +39,8 @@ function ControlledCarousel() {
           <Carousel.Item>
               <div className={styles.residential} >
                 <div className={styles.content}>
-                  <h3>Commercial Services</h3>
-                  <p>Ventillation isn't working in the warehouse? Or the office's AC is acting weird? Sunlight Air System will make sure your business' HVAC systems are running smoothly during your work days. </p>
+                  <h4>Commercial Services</h4>
+                  <h6>Ventillation isn't working in the warehouse? Or the office's AC is acting weird? Sunlight Air System will make sure your business' HVAC systems are running smoothly during your work days. </h6>
                   <button className={styles.button}>
            Contact Us
         </button>
