@@ -1,6 +1,15 @@
 .container{
     background-color: #F2F2F2;
-    height: 650px;
+    /* height: 650px; */
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.titletext{
+    margin-top: 50px;
 }
 
 .gridbox h5{
@@ -15,11 +24,11 @@
     /* text-align: center; */
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 250px 250px;
     grid-template-areas:
         "team prices emoti"
         "certi holi services";
-    grid-gap: 50px;
+    grid-gap: 20px;
 }
 
 .team{

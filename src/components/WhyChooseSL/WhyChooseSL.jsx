@@ -4,12 +4,14 @@ import ppl from './people_24px.png';
 import smile from './tag_faces_24px.png';
 import wrench from './build_24px.png';
 import dolla from './attach_money_24px.png';
+import heart from './favorite_24px.png';
+import star from './grade_24px_rounded.png';
 
 const WhyChooseSL = (props) => {
   let WCSL =
     <div className={style.container}>
       <h3>WHY CHOOSE SUNLIGHT</h3>
-      <h6>
+      <h6 className={style.titletext}>
         We are the leading service provider for your
         HVAC installations and repairs. Our team of professionals are
         qualified to handle all your repairs and installments in your home
@@ -39,17 +41,17 @@ const WhyChooseSL = (props) => {
         </div>
         <div className={style.certi}>
           <div className={style.whyheader}>
-            <img src={ppl}></img>
+            <img src={star}></img>
             <h5>G1 Certification</h5>
           </div>
-          <h6 className={style.gridtext}>There’s no contractors in our work to ensure quality and trustworthy services.</h6>
+          <h6 className={style.gridtext}>Our team is led by accredited technicians that obtained the highest level of certification in the HVAC industry.</h6>
         </div>
         <div className={style.holi}>
           <div className={style.whyheader}>
-            <img src={ppl}></img>
+            <img src={heart}></img>
             <h5>Holistic Approach</h5>
           </div>
-          <h6 className={style.gridtext}>There’s no contractors in our work to ensure quality and trustworthy services.</h6>
+          <h6 className={style.gridtext}>We are a business built on realtionships. When we service homes or businesses, we are respectful and efficient.</h6>
         </div>
         <div className={style.services}>
           <div className={style.whyheader}>
