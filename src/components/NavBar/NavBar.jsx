@@ -34,11 +34,11 @@ const NavBar = (props) => {
         </button>
         </div>
         <Navbar className={style.Navbar}>
-          <Link to='' className={style.NavBarlink}>HEATING</Link>
+          <Link to='' className={style.NavBarlink}><span className={style.strong}>HEATING</span></Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <Link to='' className={style.NavBarlink}>COOLING</Link>
+        <Link to='' className={style.NavBarlink}><span className={style.strong}>COOLING</span></Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <Link to='' className={style.NavBarlink}>AIR QUALITY</Link>
+        <Link to='' className={style.NavBarlink}><span className={style.strong}>AIR QUALITY</span></Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <Link to='' className={style.NavBarlink}>RESIDENTIAL</Link>
         &nbsp;&nbsp;&nbsp;&nbsp;

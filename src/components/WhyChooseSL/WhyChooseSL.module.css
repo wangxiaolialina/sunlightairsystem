@@ -1,7 +1,16 @@
 .container{
     background-color: #F2F2F2;
-    height: 650px;
+    /* height: 650px; */
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
 }
+
+.titleText{
+    padding-top: 50px;
+}
+
 
 .gridbox h5{
     font-family: 'Lato';
@@ -13,6 +22,7 @@
     display: grid;
     /* width: 50vw; */
     /* text-align: center; */
+    padding-top: 50px;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50% 50%;

@@ -8,8 +8,8 @@ import dolla from './attach_money_24px.png';
 const WhyChooseSL = (props) => {
   let WCSL =
     <div className={style.container}>
-      <h3>WHY CHOOSE SUNLIGHT</h3>
-      <h6>
+      <h3 className={style.titleHeader}>WHY CHOOSE SUNLIGHT</h3>
+      <h6 className={style.titleText}>
         We are the leading service provider for your
         HVAC installations and repairs. Our team of professionals are
         qualified to handle all your repairs and installments in your home
